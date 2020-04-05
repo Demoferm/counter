@@ -40,11 +40,12 @@ function Content(props) {
             <div className='col-12' align='center'>
                 <p>Enter your name:</p>
                 <p><input type='text' id='name' color='red' placeholder='write here...'/></p>
-                <p> <button onClick={() => {
+                <p> <button className="btn btn-info" onClick={() => {
                         props.onButtonClick(document.getElementById('name').value)
                     }}>OK
                     </button>
-                    <button onClick={() => {
+                    &nbsp;&nbsp;
+                    <button className="btn btn-info" onClick={() => {
                         document.getElementById('name').value = '';
                     }}>CANCEL
                     </button>
@@ -107,7 +108,7 @@ function Content(props) {
                     <div align='center' className='col-4'>
                         <h1 id='calcResult'>{calcResult}</h1>
                         <p>
-                            <button onClick={() => {
+                            <button className="btn btn-success" onClick={() => {
                                 document.getElementById('calcResult').textContent = '0';
                             }}>RESET
                             </button>
