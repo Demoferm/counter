@@ -5,10 +5,10 @@ import Contacts from "./Contacts";
 function Footer(props) {
     return (
         <div className='row'>
-            <div className='col-6'>
-        <FooterMenu MenuItems = {props.MenuItems}/>
-            </div>
-            <div className='col-6'>
+            <div className='col-12'>
+        {/*<FooterMenu MenuItems = {props.MenuItems}/>*/}
+        {/*    </div>*/}
+        {/*    <div className='col-8'>*/}
         <Contacts/>
             </div>
         </div>
