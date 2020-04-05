@@ -94,7 +94,7 @@ function Content(props) {
                         <p align='center'>(Values have to be between 1 and 100)</p>
                     </div>
                     <div className='col-6'>
-                        <p align='right'><input type='text' size='3' name='lower' placeholder='From' onChange={onChangeRange}/>
+                        <p align='right'><input type='text' size='4' name='lower' placeholder='From' onChange={onChangeRange}/>
                         </p>
                     </div>
                     <div className='col-6'>
