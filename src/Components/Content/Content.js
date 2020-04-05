@@ -39,8 +39,8 @@ function Content(props) {
         <div className='row'>
             <div className='col-12' align='center'>
                 <p>Enter your name:</p>
-                <p><input type='text' id='name' color='red' placeholder='write here...'/>
-                    <button onClick={() => {
+                <p><input type='text' id='name' color='red' placeholder='write here...'/></p>
+                <p> <button onClick={() => {
                         props.onButtonClick(document.getElementById('name').value)
                     }}>OK
                     </button>
@@ -93,11 +93,11 @@ function Content(props) {
                         <p align='center'>(Values have to be between 1 and 100)</p>
                     </div>
                     <div className='col-6'>
-                        <p align='right'><input type='text' name='lower' placeholder='From' onChange={onChangeRange}/>
+                        <p align='right'><input type='text' size='3' name='lower' placeholder='From' onChange={onChangeRange}/>
                         </p>
                     </div>
                     <div className='col-6'>
-                        <p align='left'><input type='text' name='upper' placeholder='To' onChange={onChangeRange}/></p>
+                        <p align='left'><input type='text' size = '3' name='upper' placeholder='To' onChange={onChangeRange}/></p>
                     </div>
                     <div align='right' className='col-4'>
                         <p>{range.reverse().map(el => <button key={-el} onClick={() => {
