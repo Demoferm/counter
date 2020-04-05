@@ -37,7 +37,8 @@ function App() {
       ];
 
   const onButtonClick = (n) => {
-    if (n==='Viktoria' || n==='Victoria' || n==='Виктория' || n=== 'Vika' || n==='Вика')
+    if (n==='Viktoria' || n==='Victoria' || n==='Виктория' || n=== 'Vika' || n==='Вика'
+    || n==='viktoria' || n==='victoria')
       alert(`${n}, I Love You!`);
     else alert(`Hello ${n}!`);
   }
