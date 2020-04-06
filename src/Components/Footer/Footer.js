@@ -9,7 +9,7 @@ function Footer(props) {
         {/*<FooterMenu MenuItems = {props.MenuItems}/>*/}
         {/*    </div>*/}
         {/*    <div className='col-8'>*/}
-        <Contacts/>
+        {/*<Contacts/>*/}
             </div>
         </div>
 );
