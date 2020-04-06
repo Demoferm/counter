@@ -13,9 +13,12 @@ function Content(props) {
 
     function createArr(min,max) {
         let CalcArr = [];
+        // alert(`min = ${min}, max= ${max}`);
         if (+min <= +max && +min > 0 && +max > 0 && +max <= 100 && +min <= 100) {
             CalcArr = [];
-            for (let i = min; i <= max; i++) {
+            // alert('if');
+            for (let i = +min; i <= +max; i++) {
+                // alert('for');
                 CalcArr.push(i);
             }
         }
@@ -33,6 +36,7 @@ function Content(props) {
             setRangeMax(e.target.value);
             setRange (createArr (minRange, e.target.value));
         }
+        // setRange (createArr (minRange, e.target.value));
     }
 
     return (
