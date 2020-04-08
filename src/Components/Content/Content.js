@@ -8,7 +8,7 @@ function Content(props) {
     const [range, setRange] = useState([]);
 
     const ButtonClickCalc = (e) => {
-        setCalcResult(+calcResult + +e);
+        setCalcResult(+calcResult + +e) ;
     }
 
     function createArr(min,max) {
