@@ -4,7 +4,7 @@ import Contacts from "./Contacts";
 
 function Footer(props) {
     return (
-        <div className='row'>
+        <div className='row' >
             <div className = 'col-12' >
         {/*<FooterMenu MenuItems = {props.MenuItems}/>*/}
         {/*    </div>*/}
