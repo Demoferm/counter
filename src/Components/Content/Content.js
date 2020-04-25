@@ -22,7 +22,7 @@ function Content(props) {
                 CalcArr.push(i);
             }
         }
-        return CalcArr;
+        return CalcArr ;
     }
     // const onChangeRangeMax = (e) => {
     //     setRange([minRange,e.target.value]);
