@@ -19,7 +19,7 @@ function Content(props) {
             // alert('if');
             for (let i = +min; i <= +max; i++) {
                 // alert('for');
-                CalcArr.push(i);
+                CalcArr.push(i) ;
             }
         }
         return CalcArr ;
